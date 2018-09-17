@@ -17,6 +17,11 @@
 		02B57C61202E99B800DBB0C1 /* MyInfoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02B57C60202E99B800DBB0C1 /* MyInfoList.plist */; };
 		02B57C64202EB8F300DBB0C1 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B57C63202EB8F300DBB0C1 /* Bundle+Extension.swift */; };
 		02B57C66202EB9E900DBB0C1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B57C65202EB9E900DBB0C1 /* TestViewController.swift */; };
+		3D3EFCBDA66DD91F890F67EB /* Pods_SwiftDemoSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C45960140F66883EDFBE74E /* Pods_SwiftDemoSet.framework */; };
+		B2F21526214F499E00C3A4DC /* TestNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F21525214F499E00C3A4DC /* TestNaviController.swift */; };
+		B2F21528214F58A500C3A4DC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F21527214F58A500C3A4DC /* UIColorExtension.swift */; };
+		B2F2152A214F5DC200C3A4DC /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F21529214F5DC200C3A4DC /* Then.swift */; };
+		B2F2152C214F605100C3A4DC /* YKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2152B214F605100C3A4DC /* YKNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,13 @@
 		02B57C60202E99B800DBB0C1 /* MyInfoList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MyInfoList.plist; sourceTree = "<group>"; };
 		02B57C63202EB8F300DBB0C1 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		02B57C65202EB9E900DBB0C1 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		15964BDD4ACCE87058729FEA /* Pods-SwiftDemoSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemoSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemoSet/Pods-SwiftDemoSet.release.xcconfig"; sourceTree = "<group>"; };
+		7C45960140F66883EDFBE74E /* Pods_SwiftDemoSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemoSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F95286D538BA8B61EBADC /* Pods-SwiftDemoSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemoSet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemoSet/Pods-SwiftDemoSet.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F21525214F499E00C3A4DC /* TestNaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNaviController.swift; sourceTree = "<group>"; };
+		B2F21527214F58A500C3A4DC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B2F21529214F5DC200C3A4DC /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		B2F2152B214F605100C3A4DC /* YKNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3EFCBDA66DD91F890F67EB /* Pods_SwiftDemoSet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,8 @@
 				02B57C46202E980500DBB0C1 /* SwiftDemoSetTests */,
 				02B57C51202E980500DBB0C1 /* SwiftDemoSetUITests */,
 				02B57C30202E980500DBB0C1 /* Products */,
+				5AA25D8C853C7CBB8221E449 /* Pods */,
+				A2A43482E83EB245FE7D2F36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +122,8 @@
 				02B57C32202E980500DBB0C1 /* AppDelegate.swift */,
 				02B57C34202E980500DBB0C1 /* ViewController.swift */,
 				02B57C65202EB9E900DBB0C1 /* TestViewController.swift */,
+				B2F21525214F499E00C3A4DC /* TestNaviController.swift */,
+				B2F2152B214F605100C3A4DC /* YKNavigationController.swift */,
 				02B57C60202E99B800DBB0C1 /* MyInfoList.plist */,
 				02B57C36202E980500DBB0C1 /* Main.storyboard */,
 				02B57C39202E980500DBB0C1 /* Assets.xcassets */,
@@ -137,9 +154,28 @@
 		02B57C62202EB8BF00DBB0C1 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B2F21529214F5DC200C3A4DC /* Then.swift */,
 				02B57C63202EB8F300DBB0C1 /* Bundle+Extension.swift */,
+				B2F21527214F58A500C3A4DC /* UIColorExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		5AA25D8C853C7CBB8221E449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F95286D538BA8B61EBADC /* Pods-SwiftDemoSet.debug.xcconfig */,
+				15964BDD4ACCE87058729FEA /* Pods-SwiftDemoSet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2A43482E83EB245FE7D2F36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C45960140F66883EDFBE74E /* Pods_SwiftDemoSet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02B57C57202E980500DBB0C1 /* Build configuration list for PBXNativeTarget "SwiftDemoSet" */;
 			buildPhases = (
+				81322712A5CC2A2094DDA528 /* [CP] Check Pods Manifest.lock */,
 				02B57C2B202E980500DBB0C1 /* Sources */,
 				02B57C2C202E980500DBB0C1 /* Frameworks */,
 				02B57C2D202E980500DBB0C1 /* Resources */,
+				B8B2ADEBD20B3EC5DD697509 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +310,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81322712A5CC2A2094DDA528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftDemoSet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B2ADEBD20B3EC5DD697509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemoSet/Pods-SwiftDemoSet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Closures/Closures.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Closures.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemoSet/Pods-SwiftDemoSet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02B57C2B202E980500DBB0C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,6 +358,10 @@
 				02B57C64202EB8F300DBB0C1 /* Bundle+Extension.swift in Sources */,
 				02B57C66202EB9E900DBB0C1 /* TestViewController.swift in Sources */,
 				02B57C33202E980500DBB0C1 /* AppDelegate.swift in Sources */,
+				B2F21526214F499E00C3A4DC /* TestNaviController.swift in Sources */,
+				B2F21528214F58A500C3A4DC /* UIColorExtension.swift in Sources */,
+				B2F2152A214F5DC200C3A4DC /* Then.swift in Sources */,
+				B2F2152C214F605100C3A4DC /* YKNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +525,7 @@
 		};
 		02B57C58202E980500DBB0C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5F95286D538BA8B61EBADC /* Pods-SwiftDemoSet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +541,7 @@
 		};
 		02B57C59202E980500DBB0C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15964BDD4ACCE87058729FEA /* Pods-SwiftDemoSet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

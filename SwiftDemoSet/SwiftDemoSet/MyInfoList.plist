@@ -8,5 +8,11 @@
 		<key>desController</key>
 		<string>TestViewController</string>
 	</dict>
+    <dict>
+        <key>demoTitle</key>
+        <string>测试导航条</string>
+        <key>desController</key>
+        <string>TestNaviController</string>
+    </dict>
 </array>
 </plist>
